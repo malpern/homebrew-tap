@@ -12,10 +12,10 @@ brew tap malpern/tap
 
 | Formula | Description |
 |---------|-------------|
-| [barswitch](https://github.com/malpern/barswitch) | Coordinates SketchyBar and the native macOS menu bar |
+| [sketchybar-toggle](https://github.com/malpern/sketchybar-toggle) | Coordinates SketchyBar and the native macOS menu bar |
 
-### BarSwitch
+### SketchyBar Toggle
 
 ```bash
-brew install malpern/tap/barswitch
+brew install malpern/tap/sketchybar-toggle
 ```
