@@ -2,7 +2,7 @@ class SketchybarToggle < Formula
   desc "Coordinates SketchyBar and the native macOS menu bar"
   homepage "https://github.com/malpern/sketchybar-toggle"
   url "https://github.com/malpern/sketchybar-toggle/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "4f121946b4dcd3fb03da00af996d8c3d3706cd8f1a886c008c1c0d7b9eb4e81f"
+  sha256 "a41bd6bc34f4b95427106eba6ca7fa28cdc46000f43dacb59098f31d9af1c521"
   license "MIT"
   head "https://github.com/malpern/sketchybar-toggle.git", branch: "main"
 
