@@ -1,8 +1,8 @@
 class SketchybarToggle < Formula
   desc "Coordinates SketchyBar and the native macOS menu bar"
   homepage "https://github.com/malpern/sketchybar-toggle"
-  url "https://github.com/malpern/sketchybar-toggle/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "a41bd6bc34f4b95427106eba6ca7fa28cdc46000f43dacb59098f31d9af1c521"
+  url "https://github.com/malpern/sketchybar-toggle/archive/refs/tags/v0.5.0.tar.gz"
+  sha256 "fcbdcd1027f5777b2e64d7b523c10dfac131e955204d985a90c6297f1dcb65d1"
   license "MIT"
   head "https://github.com/malpern/sketchybar-toggle.git", branch: "main"
 
@@ -22,6 +22,6 @@ class SketchybarToggle < Formula
   end
 
   test do
-    assert_match "sketchybar-toggle 0.4.0", shell_output("#{bin}/sketchybar-toggle --version")
+    assert_match "sketchybar-toggle 0.5.0", shell_output("#{bin}/sketchybar-toggle --version")
   end
 end
